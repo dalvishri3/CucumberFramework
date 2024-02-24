@@ -31,6 +31,7 @@ public WebDriverWait wait;
 	{
 		this.driver = driver;	
 		wait = new WebDriverWait(driver,Duration.ofSeconds(2));
+		System.out.println("Hello");
 	}
 	
 	public void InputText(WebElement elm, String value, String msg)
